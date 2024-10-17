@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="01-diagrama-conceptual-fuente" id="2BA663AE-821F-34D4-9F89-85ED9E75C00D" version="3.5">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 12:29:41 UTC</createdTime>
+<ownerDesignName>dataaaaa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2BA663AE-821F-34D4-9F89-85ED9E75C00D</designId>
+</OSDM_Design>

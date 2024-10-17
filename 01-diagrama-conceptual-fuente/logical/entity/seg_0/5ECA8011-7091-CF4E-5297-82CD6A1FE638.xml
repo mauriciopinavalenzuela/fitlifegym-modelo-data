@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5ECA8011-7091-CF4E-5297-82CD6A1FE638" name="Entrenadores">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 12:49:27 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="872E96D6-4168-C9BA-A78E-25515B9D8D96">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 12:49:37 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido Paterno" id="F1711B8C-C305-26AF-F461-0020E10BD726">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 12:49:38 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Especialidad" id="61E79C97-6E75-627C-1C58-B9E9D0EEF5B6">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 12:49:52 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Experiencia" id="706FC733-ECAD-E86C-49CC-BE3582A4F81E">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 12:49:58 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

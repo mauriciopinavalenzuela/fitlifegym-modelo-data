@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D34FD695-9995-2D8D-1B91-6621265850D6" name="Equipos">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 13:09:14 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo de Equipo" id="442810FB-3F14-36E7-95C8-F18A06E11D12">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 13:09:26 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marca del Equipo" id="C015D761-1710-1890-DEAA-DA8C6B0DC2A5">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 13:09:41 UTC</createdTime>
+<ownerDesignName>01-diagrama-conceptual-fuente</ownerDesignName>
+<engineerTo>
+<item key="D6FB2E57-27E3-AF57-146E-5A3789911E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
