@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="03-diagrama-mer-fuente" id="F1E966C4-2B3C-A09D-F8D6-4F63C90E222C" version="3.5">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:46:29 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F1E966C4-2B3C-A09D-F8D6-4F63C90E222C</designId>
+</OSDM_Design>

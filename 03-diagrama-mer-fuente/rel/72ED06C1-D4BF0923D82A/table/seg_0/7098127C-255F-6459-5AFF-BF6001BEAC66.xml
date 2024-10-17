@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7098127C-255F-6459-5AFF-BF6001BEAC66" name="EQUIPOS">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EQU" id="8D8AEA7D-5284-D83C-DB79-9FC5B7D7886B">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>72499678-2414-B6E8-C91C-CD26D0286E9E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_EQU" id="4299AE90-D340-78FB-5952-BDC81583A2A4">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93AE1A17-254A-807F-E4E6-86D1C00A149A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAR_EQU" id="5EE13830-41F6-A8CA-68BF-854ADF59C0FE">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>93AE1A17-254A-807F-E4E6-86D1C00A149A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46D8BCD5-E100-86FF-9634-7D29B162B071" name="EQUIPOS_PK">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8AEA7D-5284-D83C-DB79-9FC5B7D7886B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

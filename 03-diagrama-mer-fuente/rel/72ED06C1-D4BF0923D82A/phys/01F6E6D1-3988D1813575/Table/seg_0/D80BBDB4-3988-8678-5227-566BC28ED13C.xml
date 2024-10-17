@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CLASES" directorySegmentName="seg_0" id="D80BBDB4-3988-8678-5227-566BC28ED13C">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SUC" id="1EEA21D9-599C-24D8-4E16-8B594046A155">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLA" id="C2F496AE-6414-D547-0545-7B61FB0044FB">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NIV_DIF" id="DB54DA7B-4DC2-4FCB-1BD5-FAAA6FA23B00">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAP_MAX" id="F1A55E45-9E6C-C062-AC01-2AB56F67AC29">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_CLA" id="F77A8750-DF8C-D149-4B37-A73F7DA1E7B6">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLASES_SUCURSALES_FK" id="9C5B6E0F-3E9E-CF8F-E3C1-14C1338C8616">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLASES_PK" id="A91B21E0-7AF7-ED30-EBE8-781AA3F0E9F8">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

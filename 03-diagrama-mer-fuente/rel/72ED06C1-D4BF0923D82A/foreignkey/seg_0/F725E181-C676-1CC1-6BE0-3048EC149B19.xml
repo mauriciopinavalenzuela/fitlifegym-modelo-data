@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F725E181-C676-1CC1-6BE0-3048EC149B19" containerWithKeyObject="77161EDE-6DA6-3598-3927-DAA765F3CCFF" localFKIndex="63DCB9FD-09AB-38B2-7A50-15C5305CF665" name="RESERVAS_MIEMBROS_FK">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<referredTableLongName>MIEMBROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96DCFA2B-B677-DE81-5EA4-FB275188E8AA</referredTableID>
+<keyObject>4EAA326A-FD51-F24D-D63A-4238CB2E84D5</keyObject>
+<referredKeyID>4EAA326A-FD51-F24D-D63A-4238CB2E84D5</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_MIE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

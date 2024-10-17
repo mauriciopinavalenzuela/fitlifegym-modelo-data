@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D0AE3CA-B79F-6260-B897-2A7DB85297D0" name="MIEMBROS_CLASES">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MIE" id="97736670-47FB-AFA3-6D66-3F674895E985">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>72499678-2414-B6E8-C91C-CD26D0286E9E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAFDC7FB-E9BA-DC61-AF04-19D219DBD03B" referredColumn="426F2969-4934-250C-6987-34FBAE4BB62B"/>
+</associations>
+</Column>
+<Column name="ID_CLA" id="25D23CF8-9123-DAA5-C17C-C85C370C8A66">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>72499678-2414-B6E8-C91C-CD26D0286E9E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0A60DB7-D25F-8421-6D7A-7BA15D765D59" referredColumn="C2F496AE-6414-D547-0545-7B61FB0044FB"/>
+</associations>
+</Column>
+<Column name="FEC_INC" id="FE29DCE4-288A-D7F2-B947-B58D39BC7440">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6B966A55-799A-E66E-B53C-B43B7EEEBA33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27FA614A-CD2D-7200-3CB3-65499631DD50" name="MIEMBROS_CLASES_PK">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97736670-47FB-AFA3-6D66-3F674895E985"/>
+<colUsage columnID="25D23CF8-9123-DAA5-C17C-C85C370C8A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D32A03E7-ACCB-2E9B-A2D7-3B0BDA482382" name="MIEMBROS_CLASES_MIEMBROS_FK">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97736670-47FB-AFA3-6D66-3F674895E985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8B73D58-7EF5-819A-CF9D-22BF800CCCBA" name="MIEMBROS_CLASES_CLASES_FK">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D23CF8-9123-DAA5-C17C-C85C370C8A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

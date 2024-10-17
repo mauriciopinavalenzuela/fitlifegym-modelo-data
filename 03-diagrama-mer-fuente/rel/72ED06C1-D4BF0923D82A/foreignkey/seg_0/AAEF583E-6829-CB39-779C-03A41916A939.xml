@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAEF583E-6829-CB39-779C-03A41916A939" containerWithKeyObject="77161EDE-6DA6-3598-3927-DAA765F3CCFF" localFKIndex="A052F91F-7936-76F0-DA59-429FDC66E6AA" name="RESERVAS_SUCURSALES_FK">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<referredTableLongName>SUCURSALES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8044FCB1-D1C3-D2E6-68F0-CEB6FB5A3451</referredTableID>
+<keyObject>E33B78E0-2C82-8848-3D8D-56253A225FB0</keyObject>
+<referredKeyID>E33B78E0-2C82-8848-3D8D-56253A225FB0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_SUC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

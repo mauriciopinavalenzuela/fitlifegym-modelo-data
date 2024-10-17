@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="8CF77264-7213-C28A-62AA-5F088AF84D60">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:46:29 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

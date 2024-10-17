@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="26F8DF80-1C64-9281-8D88-1855081CE932" name="mer-4fn-fisico" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

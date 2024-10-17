@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB906722-BD00-1463-43CE-F5277A5DB8BE" containerWithKeyObject="FE3FE58E-CAD7-C0EF-3B14-BCFD69F91C78" localFKIndex="58CAF9D3-B65E-275E-0514-2BD25FDC6F87" name="CLASES_ENTRENADORES_CLASES_FK">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<referredTableLongName>CLASES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D80BBDB4-3988-8678-5227-566BC28ED13C</referredTableID>
+<keyObject>A91B21E0-7AF7-ED30-EBE8-781AA3F0E9F8</keyObject>
+<referredKeyID>A91B21E0-7AF7-ED30-EBE8-781AA3F0E9F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

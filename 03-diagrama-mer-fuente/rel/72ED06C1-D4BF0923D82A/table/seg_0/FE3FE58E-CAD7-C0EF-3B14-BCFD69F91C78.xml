@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE3FE58E-CAD7-C0EF-3B14-BCFD69F91C78" name="CLASES_ENTRENADORES">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLA" id="70803463-42F5-4762-0001-80032BA03C20">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>72499678-2414-B6E8-C91C-CD26D0286E9E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB906722-BD00-1463-43CE-F5277A5DB8BE" referredColumn="C2F496AE-6414-D547-0545-7B61FB0044FB"/>
+</associations>
+</Column>
+<Column name="ID_ENT" id="B6C4CB52-9EFC-FF93-1F7E-47C311F04294">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>72499678-2414-B6E8-C91C-CD26D0286E9E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01E08EE7-E07D-CA23-26BE-2C01422C8529" referredColumn="22351978-E4A6-2187-0641-5DA816982421"/>
+</associations>
+</Column>
+<Column name="FEC_CLA" id="775A3DDD-D633-1837-3127-EBAA53E625F5">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6B966A55-799A-E66E-B53C-B43B7EEEBA33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOR_CLA" id="B0C21879-7724-C837-A0E8-6F511D58A54F">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6B966A55-799A-E66E-B53C-B43B7EEEBA33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77215571-4C9C-5616-4328-39C1133F2567" name="CLASES_ENTRENADORES_PK">
+<sourceDDLFile>05-estructura.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70803463-42F5-4762-0001-80032BA03C20"/>
+<colUsage columnID="B6C4CB52-9EFC-FF93-1F7E-47C311F04294"/>
+<colUsage columnID="775A3DDD-D633-1837-3127-EBAA53E625F5"/>
+<colUsage columnID="B0C21879-7724-C837-A0E8-6F511D58A54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58CAF9D3-B65E-275E-0514-2BD25FDC6F87" name="CLASES_ENTRENADORES_CLASES_FK">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70803463-42F5-4762-0001-80032BA03C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D42C22E-7496-0567-7F90-BA854E08577C" name="CLASES_ENTRENADORES_ENTRENADORES_FK">
+<createdBy>mauri</createdBy>
+<createdTime>2024-10-16 16:47:01 UTC</createdTime>
+<ownerDesignName>03-diagrama-mer-fuente</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C4CB52-9EFC-FF93-1F7E-47C311F04294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
