@@ -43,9 +43,9 @@ El archivo Wallet_Evaluacion proporcionado se utiliza para conectar de manera se
 4. Haga clic en **Probar** para verificar la conexión.
 5. Si la prueba es exitosa, haga clic en **Conectar**.
 
-![Captura de Pantalla](./https://github.com/mauriciopinavalenzuela/Evaluacion-Modelado-de-Datos/blob/main/Captura%20de%20pantalla%202024-10-17%20091704.png)
+![Captura de Pantalla](https://github.com/mauriciopinavalenzuela/Evaluacion-Modelado-de-Datos/blob/main/Captura%20de%20pantalla%202024-10-17%200091704.png)
 
-![Captura de Pantalla](./https://github.com/mauriciopinavalenzuela/Evaluacion-Modelado-de-Datos/blob/main/Captura%20de%20pantalla%202024-10-17%20091742.png)
+![Captura de Pantalla](https://github.com/mauriciopinavalenzuela/Evaluacion-Modelado-de-Datos/blob/main/Captura%20de%20pantalla%202024-10-17%200091742.png)
 
 ### Paso 3: Ejecutar Script's SQL
 
